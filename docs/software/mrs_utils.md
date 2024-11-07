@@ -13,7 +13,7 @@ nav_order: 99
 
 MRS Utilities contains various useful tools for development and testing.
 
-[MRS utils repository](https://github.com/ctu-mrs/mrs_utils){: .btn .btn-blue }
+[MRS utils repository](https://github.com/ctu-mrs/mrs_utils)
 
 ## tf_reconfigure
 
