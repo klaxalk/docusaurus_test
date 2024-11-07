@@ -45,6 +45,13 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '1.5.0',
+              path: '1.5.0',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -82,9 +89,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'CTU MRS Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CTU MRSLogo',
         src: 'img/logo.svg',
       },
       items: [
