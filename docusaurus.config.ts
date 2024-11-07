@@ -106,7 +106,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {
           type: 'docsVersionDropdown',
@@ -114,10 +114,15 @@ const config: Config = {
           dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
           dropdownActiveClassDisabled: true,
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Articles', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ctumrs',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'http://mrs.felk.cvut.cz',
+          label: 'CTU MRS',
           position: 'right',
         },
       ],
@@ -135,37 +140,24 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Articles',
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'CTU GitHub',
+              href: 'https://github.com/ctumrs',
+            },
+            {
+              label: 'MRS UAV System',
+              href: 'https://github.com/ctumrs/mrs_uav_system',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CTU MRS, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
