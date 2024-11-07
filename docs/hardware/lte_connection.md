@@ -10,7 +10,7 @@ Follow this guide to setup an LTE connection on a drone with the MRS UAV System.
 ## HW setup
 This guide is described for device [LTE EG25-G Mini PCIe](https://www.quectel.com/product/lte-eg25-g-mpci://www.quectel.com/product/lte-eg25-g-mpcie).
 
-<img style={{display: block; margin: auto}} src="fig/lte-module.jpg" width="400px"></img>
+<img src="fig/lte-module.jpg" width="400px"></img>
 
 However, there are several types of devices and ways to connect them. The devices mainly differ in setup requirements (e.g. need for special drivers) and reliability. It can be summarized like this:
 
