@@ -19,7 +19,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ctumrs', // Usually your GitHub org/user name.
+  organizationName: 'ctu-mrs', // Usually your GitHub org/user name.
   projectName: 'ctumrs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -116,7 +116,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Articles', position: 'left'},
         {
-          href: 'https://github.com/ctumrs',
+          href: 'https://github.com/ctu-mrs',
           label: 'GitHub',
           position: 'right',
         },
@@ -148,11 +148,11 @@ const config: Config = {
             },
             {
               label: 'CTU GitHub',
-              href: 'https://github.com/ctumrs',
+              href: 'https://github.com/ctu-mrs',
             },
             {
               label: 'MRS UAV System',
-              href: 'https://github.com/ctumrs/mrs_uav_system',
+              href: 'https://github.com/ctu-mrs/mrs_uav_system',
             },
           ],
         },
