@@ -45,7 +45,7 @@ const config: Config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          lastVersion: 'current',
+          lastVersion: '1.5.0',
           versions: {
             current: {
               label: '1.5.0',
