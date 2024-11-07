@@ -53,6 +53,10 @@ const config: Config = {
               label: '1.5.0',
               path: '1.5.0',
             },
+            '1.4.9': {
+              label: '1.4.9',
+              path: '1.4.9',
+            },
           },
 
         },
