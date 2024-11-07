@@ -28,7 +28,7 @@ This is due to the fact, that the UAV is in practice *never* precisely at the co
 More specifically, when you command the UAV at time ![](https://render.githubusercontent.com/render/math?math=t_1) to move to its current measured position ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_c\left(t_1\right)%20=%20\mathbf{x}_m\left(t_1\right)), it will attempt to go there as well as it can.
 However, at time ![](https://render.githubusercontent.com/render/math?math=t_2), it will actually reach some other (although potentially very close) position ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_m\left(t_2\right)%20\neq%20\mathbf{x}_c\left(t_1\right)).
 Now again, you command the UAV to go to its current measured position ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_c\left(t_2\right)%20=%20\mathbf{x}_m\left(t_2\right)).
-You can already see, that the commanded position at ![https://render.githubusercontent.com/render/math?math=t_2]() is different, than the one at ![](https://render.githubusercontent.com/render/math?math=t_2].
+You can already see, that the commanded position at ![](https://render.githubusercontent.com/render/math?math=t_2) is different, than the one at ![](https://render.githubusercontent.com/render/math?math=t_2].
 Even though you wanted your UAV to stay put, you are actually commanding it to move!
 
 Unfortunately, what you have effectively created is a positive feedback causing the UAV to drift in a certain direction, which is given by random disturbances in the system.
