@@ -21,7 +21,7 @@ Finally, we will create a simple Gazebo `.world` to view the created model.
 
 In Blender, go to `Edit` -> `Preferences` -> `Add-ons` -> `Install` and select the downloaded zip file
 
-![](fig/blender-preferences.png)
+![](fig/real-world-elevation/blender-preferences.png)
 
 The plugin should now appear in the addons list. Make sure it's enabled (checkbox is checked).
 
