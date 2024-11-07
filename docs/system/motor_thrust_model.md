@@ -75,7 +75,7 @@ The System uses a very simple but reliable model, which relies on the relationsh
 We therefore model the relationship between throttle and thrust as a quadratic curve.
 The thrust is modelled as:
 
-$$ T = a\sqrt{f} + b $$
+`T = a\sqrt{f} + b $$
 
 Where $$ T $$ is throttle, $$ a $$ and $$ b $$ are the parameters of the quadratic curve and $$ f $$ is the produced force (thrust).
 Note that we only use a quadratic and a constant term. There is no linear term, which makes the model a bit less accurate, but it greatly simplifies the inversion of the equation and avoids some other issues.
