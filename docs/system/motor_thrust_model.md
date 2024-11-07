@@ -61,7 +61,7 @@ If the values looks appropriate, you can proceed. If not, check that your input 
 
 The script will produce file named output.yaml, which looks like this:
 
-```bash
+```yaml
 motor_params:
   a: 0.282796
   b: -0.180959
@@ -75,14 +75,18 @@ The System uses a very simple but reliable model, which relies on the relationsh
 We therefore model the relationship between throttle and thrust as a quadratic curve.
 The thrust is modelled as:
 
-`T = a\sqrt{f} + b $$
+```
+T = a\sqrt{f} + b
+```
 
-Where $$ T $$ is throttle, $$ a $$ and $$ b $$ are the parameters of the quadratic curve and $$ f $$ is the produced force (thrust).
+Where `T` is throttle, `a` and `b` are the parameters of the quadratic curve and `f` is the produced force (thrust).
 Note that we only use a quadratic and a constant term. There is no linear term, which makes the model a bit less accurate, but it greatly simplifies the inversion of the equation and avoids some other issues.
 
 
-We can substitute $$ f = mg $$ and invert the equation, to get an estimate of the current UAV mass based on the used throttle:
+We can substitute `f` and invert the equation, to get an estimate of the current UAV mass based on the used throttle:
 
-$$ m=\frac{1}{g}\left ( \frac{T-b}{a} \right )^{2} $$
+```
+m=\frac{1}{g}\left ( \frac{T-b}{a} \right )^{2}
+```
 
 This mass estimate is used for landing detection, and can be used for other purposes, like confirmation of payload attachment/release based on change in the mass of the UAV.
