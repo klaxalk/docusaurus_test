@@ -8,8 +8,8 @@ parent: Hardware
 
 ---
 
-`vehicle_status/nav_state`:\
-\
+`vehicle_status/nav_state`:
+```yaml
 flight_modes_table = {\
 0: ('Manual'), # red\
 1: ('Altitude'), # yellow\
@@ -32,7 +32,7 @@ flight_modes_table = {\
 19: ('Follow Target'), # purple\
 20: ('Precision Land'), # purple\
 21: ('Orbit'), # purple\
-}
+```
 
 ### RC Inputs
 
@@ -48,5 +48,5 @@ flight_modes_table = {\
 ### Log Profiles
 
 ---
-In addition to the topics logged by the SD card, adding `Bit:4 - High rate` is enough to get values on actuators, rates, attitude, and sensors. Note that `Bit:3 - System identification` is a subset of topics included in `high_rate` topics and so it is not useful to enable them both. Although, enabling both is not harmful. In essence, unless flying on PX4's autonomy, `SDLOG_PROFILE:17` is recommended.  
+In addition to the topics logged by the SD card, adding `Bit:4 - High rate` is enough to get values on actuators, rates, attitude, and sensors. Note that `Bit:3 - System identification` is a subset of topics included in `high_rate` topics and so it is not useful to enable them both. Although, enabling both is not harmful. In essence, unless flying on PX4's autonomy, `SDLOG_PROFILE:17` is recommended.
 More details can be found in the PX4 file `src/modules/logger/logged_topics.cpp`.
