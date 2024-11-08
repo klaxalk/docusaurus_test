@@ -1,5 +1,5 @@
 ---
-slag: /
+slug: /
 ---
 
 # Frequently Asked Questions
