@@ -38,7 +38,6 @@ const config: Config = {
       'classic',
       {
         docs: {
-          homePageId: 'FAQ', // Set to existing document id.
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
