@@ -48,7 +48,7 @@ const config: Config = {
           rehypePlugins: [rehypeKatex],
           lastVersion: 'current',
 
-          includeCurrentVersion: true,
+          includeCurrentVersion: false,
           versions: {
             current: {
               label: '1.5.0',
