@@ -39,18 +39,22 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+
           // routeBasePath: '/current', // Set this value to '/'.
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          lastVersion: 'current',
 
-          includeCurrentVersion: false,
+          lastVersion: '1.5.0',
+
+          includeCurrentVersion: true,
+
           versions: {
-            current: {
+            '1.5.0': {
               label: '1.5.0',
               path: '1.5.0',
             },
