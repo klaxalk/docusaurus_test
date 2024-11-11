@@ -49,7 +49,7 @@ const config: Config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
 
-          lastVersion: '1.5.0',
+          lastVersion: 'current',
 
           includeCurrentVersion: true,
 
