@@ -1,7 +1,6 @@
----
-title: Markdown page example
----
+# Welcome to the CTU MRS Docs
 
-# Markdown page example
+![](./logos.png)
 
-You don't need React to write simple standalone pages.
+Please continue to the latest Documentation using the top menu bar.
+Documentation for older version of the MRS UAV System is also preserved (however, it is not maintained anymore).
