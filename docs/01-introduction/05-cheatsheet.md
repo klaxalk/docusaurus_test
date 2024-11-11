@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Cheatsheet
-parent: Introduction
-nav_order: 2
 ---
 
 # Cheatsheet for MRS UAV system
