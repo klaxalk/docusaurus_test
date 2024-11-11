@@ -1,14 +1,11 @@
 ---
-layout: default
 title: Software
-nav_order: 5
-has_children: true
 ---
 
 # Software
 
-[mrs_msgs documentation](https://ctu-mrs.github.io/mrs_msgs/)
+<Button label="🔗 mrs_msgs API" link="https://ctu-mrs.github.io/mrs_msgs/" block /><br />
 
-[mrs_modules_msgs documentation](https://ctu-mrs.github.io/mrs_modules_msgs/)
+<Button label="🔗 mrs_modules_msgs API" link="https://ctu-mrs.github.io/mrs_modules_msgs/" block /><br />
 
-[MRS lib documentation](https://ctu-mrs.github.io/mrs_lib/)
+<Button label="🔗 mrs_lib API" link="https://ctu-mrs.github.io/mrs_lib/" block /><br />
