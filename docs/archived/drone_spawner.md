@@ -1,10 +1,3 @@
----
-layout: default
-title: MRS Drone Spawner (before 2024)
-parent: Archive
-nav_order: 2
----
-
 | :warning: **Attention please: This page was archived.**                                                                                                                                                      |
 | :---                                                                                                                                                                                                         |
 | The instructions on this page are meant to be used with the MRS UAV System 1.0 and in most cases works with 1.5 as well. A more flexible, modular version of the drone spawner was released in 2024. |

@@ -1,9 +1,3 @@
----
-layout: default
-title: Tersus RTK GNSS
-parent: Archive
----
-
 # Tersus RTK GNSS setup
 
 **Basestation:**
