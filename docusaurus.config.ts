@@ -40,7 +40,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
 
-          editUrl: 'https://github.com/klaxalk/docusaurus_test/tree/master/docs',
+          editUrl: 'https://github.com/klaxalk/docusaurus_test/tree/master',
 
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -68,7 +68,7 @@ const config: Config = {
             xslt: true,
           },
 
-          editUrl: 'https://github.com/klaxalk/docusaurus_test/tree/master/blog',
+          editUrl: 'https://github.com/klaxalk/docusaurus_test/tree/master',
 
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
