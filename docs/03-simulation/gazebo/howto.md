@@ -1,9 +1,5 @@
 ---
-layout: default
 title: How to simulate
-parent: Gazebo
-grand_parent: Simulation
-nav_order: 1
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Custom drone
-parent: Gazebo
-grand_parent: Simulation
 ---
 
 # Adding a custom drone to the simulation (tutorial)
@@ -714,4 +711,5 @@ We will now add the camera plugin into the `if` block. Note that a `zero_inertia
 ```
 
 ## Adding more components
+
 We added legs (cylinders with collision), motors (just visual cylinders) and two additional components from the MRS simulation (laser rangefinder, ground truth publisher). The full model is available [here](https://github.com/ctu-mrs/mrs_gazebo_custom_drone_example/tree/main).

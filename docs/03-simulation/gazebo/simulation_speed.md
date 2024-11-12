@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Run Simulation Faster than Real-time
-parent: Gazebo
-grand_parent: Simulation
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                            |

@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Videos from Gazebo
-parent: Gazebo
-grand_parent: Simulation
 ---
 
 # How to generate video from Gazebo

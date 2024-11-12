@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Custom simulation world
-parent: Gazebo
-grand_parent: Simulation
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |
@@ -69,6 +66,3 @@ The included [mrs_gazebo_static_transform_republisher](https://github.com/ctu-mr
 `rosrun rqt_tf_tree rqt_tf_tree` shows no transformations between spawned sensors and the `<uav_name>/fcu` frame?
 Make sure your world file contains the `mrs_gazebo_static_transform_republisher` plugin as described [above](https://ctu-mrs.github.io/docs/simulation/custom_world.html#create-the-world-manually-in-a-text-editor).
 Lack of static transformations might also prevent start of some systems and hence prevent taking off.
-
-
-
