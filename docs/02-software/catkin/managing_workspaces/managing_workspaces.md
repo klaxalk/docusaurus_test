@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Managing Workspaces
-parent: catkin
-grand_parent: Software
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

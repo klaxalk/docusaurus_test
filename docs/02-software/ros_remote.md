@@ -1,7 +1,5 @@
 ---
-layout: default
 title: ROS remote
-parent: Software
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |

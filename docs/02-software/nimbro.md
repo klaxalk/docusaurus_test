@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Nimbro Explained
-parent: Software
+title: Nimbro Network
 ---
 
 # How Nimbro Works
@@ -19,7 +17,6 @@ This configuration can be done in two ways:
 ## Services
 
 Services are slightly different because the information for which service to call and how to get the response is not contained in the UDP/TCP packet and therefore the configuration needs to be done in all the hosts. Services differ in another way that each service requires two separate ports since this is a two-way communication. Also, a single nimbro node serves only one service.
-
 
 # Nimbro Failures
 

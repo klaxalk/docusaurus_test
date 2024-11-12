@@ -1,8 +1,5 @@
 ---
-layout: default
 title: mrs_utils
-parent: Software
-nav_order: 99
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |
@@ -13,7 +10,7 @@ nav_order: 99
 
 MRS Utilities contains various useful tools for development and testing.
 
-[MRS utils repository](https://github.com/ctu-mrs/mrs_utils)
+<Button label="🔗 mrs_utils repository" link="https://github.com/ctu-mrs/mrs_utils" block /><br />
 
 ## tf_reconfigure
 

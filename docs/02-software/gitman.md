@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Gitman
-parent: Software
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

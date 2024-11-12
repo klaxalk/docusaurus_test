@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Debugging with GDB
-parent: Software
 ---
 
 # Debugging with GDB

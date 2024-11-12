@@ -1,8 +1,5 @@
 ---
-layout: default
 title: mrs_lib
-parent: Software
-nav_order: 99
 ---
 
 # MRS Libraries

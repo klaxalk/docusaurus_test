@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Latex
-parent: Software
-nav_order: 95
 ---
 
 # Sync git repository with an Overleaf project

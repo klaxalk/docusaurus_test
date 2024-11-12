@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Profiling C++ code
-parent: Software
 ---
 
 # Profiling methods for C++
