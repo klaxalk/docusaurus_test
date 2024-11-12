@@ -1,7 +1,5 @@
 ---
-layout: default
 title: PX4 Firmware
-parent: Hardware
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Motor tests
-parent: Hardware
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |
@@ -9,13 +7,15 @@ parent: Hardware
 | The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
 
 # Motor tests
-All motor tests are done with a Turnigy MultiStar BLheli_32 51A ESC, with the 32.7 BLheli firmware. [ESC config](https://github.com/ctu-mrs/uav_core/blob/master/miscellaneous/blheli32_esc_config/T650/T650_M1.ini) is available in our repository. 
+
+All motor tests are done with a Turnigy MultiStar BLheli_32 51A ESC, with the 32.7 BLheli firmware. [ESC config](https://github.com/ctu-mrs/uav_core/blob/master/miscellaneous/blheli32_esc_config/T650/T650_M1.ini) is available in our repository.
 Current and voltage measurements are done by the ESC and thrust is measured with a 5 kg load cell, coupled with a HX711 amplifier.
 Tests are done with fully charged lithium batteries, as we do not have a powerful enough adjustable power supply.
 Tables starts at 50% throttle and continue to 100% throttle in 10% increments.
 
 
 ## Motor: Readytosky 2312 920KV
+
 Cheap chinese motor, clone of the original DJI motors for F450/F550 and Phantom drones.
 
 [![](fig/motor_tests/2312_920KV_readytosky.jpg "Readytosky 2312 920KV motor")](fig/motor_tests/2312_920KV_readytosky.jpg)
@@ -34,6 +34,7 @@ Cheap chinese motor, clone of the original DJI motors for F450/F550 and Phantom 
 | 1024       | 9068  | 16.32       | 14.26       | 232.72    | 4.40             |
 
 ### Propeller: Aliexpress plastic 9450 self-tightening propeller
+
 This is a copy of the DJI propeller, it is much more flexible
 
 [![](fig/motor_tests/9450Fake.jpg "Copy of a DJI 9450 propeller")](fig/motor_tests/9450Fake.jpg)

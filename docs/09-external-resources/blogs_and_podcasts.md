@@ -1,8 +1,5 @@
 ---
-layout: default
-parent: Resources
 title: Blogs and Podcasts
-nav_order: 4
 ---
 
 # Blogs

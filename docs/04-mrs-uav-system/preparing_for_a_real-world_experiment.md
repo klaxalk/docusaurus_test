@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Preparing for a real-world experiment
-parent: The UAV System
-nav_order: 7
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

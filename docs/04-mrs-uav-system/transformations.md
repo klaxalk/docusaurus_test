@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Transformations
-parent: The UAV System
-nav_order: 4
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

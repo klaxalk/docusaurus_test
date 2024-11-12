@@ -1,7 +1,5 @@
 ---
-layout: default
 title: PX4 Log Knowledgebase
-parent: Hardware
 ---
 
 ### Vehicle flight mode

@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Configuring .bashrc for real UAVs
-parent: The UAV System
-nav_order: 3
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

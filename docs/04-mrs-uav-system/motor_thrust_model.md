@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Motor thrust model
-parent: The UAV System
-nav_order: 10
 ---
 
 # Motor thrust model

@@ -1,8 +1,5 @@
 ---
-layout: default
-parent: Resources
 title: Courses and lectures
-nav_order: 2
 ---
 
 # Courses, tutorials, lectures

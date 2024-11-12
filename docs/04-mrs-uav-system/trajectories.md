@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Trajectories
-parent: The UAV System
-nav_order: 4
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                            |

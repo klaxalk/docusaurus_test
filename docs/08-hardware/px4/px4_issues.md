@@ -1,10 +1,8 @@
 ---
-layout: default
 title: PX4 issues
-parent: Hardware
 ---
 
-# Discovered issues of PX4 firmware  
+# Discovered issues of PX4 firmware
 
 ## The drone falls down after aggressive maneuvers
 
@@ -15,7 +13,7 @@ The ESCs actively brake the motors when minimal-width PWM pulse is received.
 The PX4 controller does not cope well with the braked motors, so the drone tips over and falls down.
 This happens mostly during aggressive changes of roll or pitch.
 
-### Affects: 
+### Affects:
 
 * so far observed with DJI 430 Lite ESCs + Pixhawk mini or Pixhawk 2.1
 * Pixhawk 2.1 is mostly able to recover, but still does a weird spiral movement and loses altitude

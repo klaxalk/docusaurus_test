@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Raspberry Pi 5 Knowledge base
-parent: Hardware
 ---
 
 # Camera firmware issues

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: R81 receiver setup
-parent: Hardware
 ---
 
 # How to setup Radiomaster R81 receivers
@@ -11,7 +9,7 @@ parent: Hardware
 Set the receiver mode on the Radiomaster RC to MULTI FrSky D8.
 Always bind the receiver while the UAV is powered through a battery, do not use just the Pixhawk's USB cable, it may cause issues.
 To bind with the receiver:
-1. Hold the button on the receiver, then power the UAV on. 
+1. Hold the button on the receiver, then power the UAV on.
 2. The receiver LED should be solid red.
 3. On the RC, make sure you have the correct mode selected, and press Bind.
 4. The receiver should start blinking, the RC should start beeping.
@@ -35,7 +33,7 @@ When the receiver is in the failsafe mode (rc is lost), it is outputing some pre
   * Set the offboard switch to On
   * Set the throttle to minimum
   * Set the Failsafe in the model settings of the RC to 'Receiver'. The 'Hold Pulses' or 'No Pulses' options will negate this entire exercise.
-3. Once the RC is in the desired configuration, turn on the UAV. 
+3. Once the RC is in the desired configuration, turn on the UAV.
 4. Wait a second for the RC to connect (solid red light) and then press the button on the receiver. You have 10 seconds to do this after the receiver is powered on.
 5. The receiver should start flashing, release the button.
 6. Power cycle the receiver. The failsafe output is now set, when the RC is now powered off, the receiver will output these saved values.

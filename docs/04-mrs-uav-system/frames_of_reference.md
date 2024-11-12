@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Frames of reference
-parent: The UAV System
-nav_order: 2
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

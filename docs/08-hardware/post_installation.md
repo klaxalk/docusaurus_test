@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Post installation guide
-parent: Hardware
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |
@@ -82,7 +80,7 @@ cat /dev/YOUR_DEVICE_DESIGNATOR
 
 and you should see some incoming messages.
 
-Our HW guys have already prepared `.rules` files for our most used distribution boards and they can be found in 
+Our HW guys have already prepared `.rules` files for our most used distribution boards and they can be found in
 
 ```bash
 ~/git/uav_core/miscellaneous/udev_rules/

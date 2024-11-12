@@ -1,13 +1,13 @@
 ---
-layout: default
 title: LTE connection guide
-parent: Hardware
 ---
 
 # Guide to enable LTE connection on the drone
+
 Follow this guide to setup an LTE connection on a drone with the MRS UAV System.
 
 ## HW setup
+
 This guide is described for device [LTE EG25-G Mini PCIe](https://www.quectel.com/product/lte-eg25-g-mpci://www.quectel.com/product/lte-eg25-g-mpcie).
 
 <img src="fig/lte-module.jpg" width="400px"></img>
@@ -23,6 +23,7 @@ However, there are several types of devices and ways to connect them. The device
 > **⚠ WARNING:** If you are connecting the LTE module through the USB, be careful about the quality of the cables and loose USB ports. We experienced serious issues when connected like that. It caused not only a loss of the internet connection but also a restart of the computer’s USB hub, which affected the Pixhawk (jumped out of offboard control to RC). It could have a different explanation (faulty converter’s driver), but quality cables should be used anyway (we used an old USB 2.0 extender). The exact reason of our issues was not found.
 
 ## SW setup
+
 The MRS UAV system uses systemd-newtorkd to control network connections. networkd doesn't support the modems option. Therefore NetworkManager needs to be used. It is disabled by default. Use the following command to start it:
 ```bash
 sudo systemctl start NetworkManager  -- to start program in current session
@@ -31,6 +32,7 @@ sudo systemctl enable NetworkManager -- to start automatically on boot
 It also requires a `modem-manager` to be installed, but this should already be done.
 
 ### Netplan config
+
 Before updating the control, you have to find the device name. To do that, call:
 ```bash
 nmcli device

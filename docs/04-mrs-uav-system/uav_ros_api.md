@@ -1,8 +1,5 @@
 ---
-layout: default
-title: UAV-ROS interface
-parent: The UAV System
-nav_order: 1
+title: UAV-ROS API
 ---
 
 | :warning: **Attention please: This page needs work.**                                                                                             |

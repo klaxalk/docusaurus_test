@@ -1,8 +1,5 @@
 ---
-layout: default
-parent: Resources
 title: General
-nav_order: 1
 ---
 
 # Resources: general (other resources, databases, and others)
@@ -14,6 +11,7 @@ nav_order: 1
   - early-phase database with the goal to group data from the entire field
 
 ## Math & physics
+
 - [**The Book of Statistical Proofs**](https://statproofbook.github.io/)
   - centralized, open and collaboratively edited archive of statistical theorems for the computational sciences
   - example proof: [MLE for the univariate Gaussian](https://statproofbook.github.io/P/ug-mle)

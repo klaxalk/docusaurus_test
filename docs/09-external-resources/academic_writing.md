@@ -1,8 +1,5 @@
 ---
-layout: default
-parent: Resources
 title: Academic writing
-nav_order: 3
 ---
 
 # Academic writing: tips & tricks

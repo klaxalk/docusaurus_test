@@ -1,7 +1,5 @@
 ---
-layout: default
 title: Camera and lens selection guide
-parent: Hardware
 ---
 
 # A quickstart guide to camera and lens selection for computer vision
@@ -55,7 +53,7 @@ Other parameters to pay attention to when selecting a camera are:
    Pixels of monochrome cameras are sensitive to all colors of the visible spectrum, making them more sensitive to light and thus better suited for low light conditions.
    In many cases, however, you need RGB image
  * [Dynamic range](https://en.wikipedia.org/wiki/Dynamic_range):
-   The larger the better will the camera be able to distinguish similar colors. 
+   The larger the better will the camera be able to distinguish similar colors.
    This parameter is dictated by the resolution of the camera's ADC and noise parameters.
    Note: if you intend to use only 8-bit images, then a dynamic range over 50dB will probably not bring much improvement (8 bits correspond to ~48.2dB dynamic range), but you will be throwing away a significant part of the useful information.
  * [Quantum Efficiency](https://www.flir.com/discover/iis/machine-vision/how-to-evaluate-camera-sensitivity/):
@@ -74,7 +72,7 @@ For the actual selection of a specific camera, I recommend using a camera select
  * [Matrix-Vision camera selector](https://www.matrix-vision.com/camera-selector.html) (manufacturer of BlueFox cameras)
 
 Note that different physical camera configurations are usually available with the same sensor model.
-Since the sensor dictates most of the important parameters of the camera (resolution, RGB/monochrome, noise and sensitivity parameters etc.), you can oftentimes select a camera with the same parameters, but eg. different connection or lens mount options. 
+Since the sensor dictates most of the important parameters of the camera (resolution, RGB/monochrome, noise and sensitivity parameters etc.), you can oftentimes select a camera with the same parameters, but eg. different connection or lens mount options.
 
 ### Lens selection
 
@@ -84,7 +82,7 @@ The selected camera dictates the following parameters to which attention has to 
  * [Lens mount type](https://www.flir.com/support-center/iis/machine-vision/application-note/selecting-a-lens-for-your-camera/):
    Limits what lens may be mounted to the camera.
    There are three common types:
-   
+
     * The **C** mount. A **C**-type lens can easily be used with a **CS**-type camera lens mount using a simple reduction ring.
     * The **CS** mount. **CS**-type lenses are only compatible with **CS**-type camera lens mounts and cannot be used with a camera that has a **C** or **M12** lens mount.
     * The **M12** mount. There are adapters to use a **M12** lens with a camera that has a **C** or **CS** lens mount, but this combination can cause problems and is better avoided.
@@ -100,6 +98,7 @@ The selected camera dictates the following parameters to which attention has to 
    Manufacturers sometimes show in their datasheets what portion of what size of sensor will the image cover.
 
 ## On wide FoV and other "non-pinhole-like" setups
+
 *Note: May contain contoversial information - direct your flame to ViktorWalter*
 
 Very often, especially for applications of vision onboard of UAVs, you will need cameras with wide FoV to get an overview of the surroundings without the need for actively rotating the camera or the whole UAV.

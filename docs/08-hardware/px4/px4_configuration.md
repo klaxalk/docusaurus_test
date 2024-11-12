@@ -1,7 +1,5 @@
 ---
-layout: default
 title: PX4 Configuration
-parent: Hardware
 ---
 
 | :warning: **Attention please: This page is outdated.**                                                                                           |
@@ -9,9 +7,11 @@ parent: Hardware
 | The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
 
 # Pixhawk setup on a new drone
+
 Follow this guide to setup a new drone with the Pixhawk autopilot for the MRS UAV system.
 
 ## HW setup
+
 This guide is written for Pixhawk 4, because it is used on most of the MRS aerial platforms. But it is applicable for other versions of the Pixhawk, with minor differences.
 
 - The Pixhawk 4 comes with a power distribution/supply board. This board provides power distribution for motors (ESCs), connections for ESC signals, two redundant 5V power supplies for Pixhawk and current and voltage monitoring .
@@ -34,12 +34,14 @@ This guide is written for Pixhawk 4, because it is used on most of the MRS aeria
 [![](fig/Pixhawk_no_cables.jpg "Pixhawk without cables")](fig/Pixhawk_no_cables.jpg) | [![](fig/Pixhawk_with_cables.jpg "Pixhawk with cables attached")](fig/Pixhawk_with_cables.jpg)
 
 ## SD card setup
+
 Pixawk has an SD card for flight logs and for additional configuration.
 If you want to use the MRS system, you have to use our PX4 sd card configuration. You can find it in the [uav_core/miscellaneous](https://github.com/ctu-mrs/uav_core/tree/master/miscellaneous/pixhawk_sdcard_config) repository.
 Create a folder called `etc` in the root of the SD card and copy the `extras.txt` file into this folder.
 Install the SD card back into the Pixhawk.
 
-##  SW setup
+## SW setup
+
 - Download [QGroundControl](http://qgroundcontrol.com/)
 - Connect the Pixhawk to your computer with a USB cable and run QGroundControl
 - Update the Pixhawk firmware to the latest stable version. Optionally, you can use our [tweaked firmware](https://ctu-mrs.github.io/docs/hardware/px4_firmware.html) or your custom firmware.
@@ -136,7 +138,7 @@ Enable: `EKF2_MAG_TYPE := Automatic` and `SYS_HAS_MAG := 1`
 
 ## Magnetometer priorities - FIX for Firmware 1.13.2-3 (Pixhawk 6X/6C)
 
-When flying with external magnetometer, always set the lowest priority to the internal magnetometer and the maximal priority to the external one. 
+When flying with external magnetometer, always set the lowest priority to the internal magnetometer and the maximal priority to the external one.
 Best is to only use the external magnetometer. This prevents jumps in heading odometry and avoids potential crashes as default fusion of both magnetometers was observed to be not reliable.
 
 Publish only the primary magnetometer: `SENS_MAG_MODE=Publish primary magnetometer`
