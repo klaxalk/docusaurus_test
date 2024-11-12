@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Blender
-parent: 3D model processing
-grand_parent: Software
 ---
 
 # Blender
@@ -11,7 +8,7 @@ grand_parent: Software
 * I used Eeevee rendering mode, the fastest and sufficient with default settings
 
 ## Mesh parametrization
-* Maps the mesh structure to the 2D plane to allow texturing. 
+* Maps the mesh structure to the 2D plane to allow texturing.
 * Import the `.ply` mesh file
 * Change default `Object mode` to `Edit mode`
 * Select all data with `a` key
@@ -21,10 +18,10 @@ grand_parent: Software
 * Do something else. It takes a long time to process. Average an hour, depending on the model size. (250k faces ~1 hour 15 minutes, 500k faces ~3 hours). These values are only indicative, processing time is strongly hardware and model dependent!
 * When finished, split the screen and change the `Editor Type` to `UV Editor`. It shows the texture parametrization.
 * Export the file as `.ply` or `.obj`.
-    * `.obj` format might be needed if `.ply` output is corrupted. It has to be exported from `Blender` with `Y` axis as `FORWARD` and `Z` axis as `UP`. Then import this file to `Meshlab`, skip `Convert PerVertex UV to PerWedge UV` because `.obj` file already contains `PerWedge UV` and export it in `.ply` format for next steps. 
+    * `.obj` format might be needed if `.ply` output is corrupted. It has to be exported from `Blender` with `Y` axis as `FORWARD` and `Z` axis as `UP`. Then import this file to `Meshlab`, skip `Convert PerVertex UV to PerWedge UV` because `.obj` file already contains `PerWedge UV` and export it in `.ply` format for next steps.
 
 ## Blender work with video recording
-* Import .dae model 
+* Import .dae model
 * Adding camera path by clicking on add -> curve -> path
 * You can select path points by changing to Edit mode on left up corner and on the left side you can chose move, rotate or scale
 * Adding camera by cliking on add -> camera

@@ -1,16 +1,15 @@
 ---
-layout: default
 title: Fixing colors
-parent: 3D model processing
-grand_parent: Software
 ---
 
 # Fixing colors
 
 ## Most color noise can be smoothed by Gaussian filter
+
 - Use [CloudCompare](https://ctu-mrs.github.io/docs/software/3d_model_processing/cloudcompare.html#smoothing-colors)
 
 ## Highly bad data can be fixed with custom pipeline
+
 Export
   - 1 structured `.e57` file with *N* low-res clouds, origins and images
   - *N* unstructured `.e57` files with full-point clouds.
@@ -21,5 +20,3 @@ Export
   - filters out measurements with respect to the sensor accuracy
   - produces a binary `.pcd` file
 2. Smooth colors using [CloudCompare](https://ctu-mrs.github.io/docs/software/3d_model_processing/cloudcompare.html#smoothing-colors)
-
-

@@ -1,8 +1,5 @@
 ---
-layout: default
 title: CloudCompare
-parent: 3D model processing
-grand_parent: Software
 ---
 
 # CloudCompare (CC)
@@ -21,11 +18,11 @@ Used for data processing before meshing and texturing.
 - Neighbors
   - Structured clouds can be associated to a grid structure. This grid structure can be used to determine the neighbors around each point. **However this is generally not better nor faster. This structure is however very useful to orient the normals properly.**
 - Orientation
-  - Use sensor(s) whenever possible - **recommend to use for .e57** 
+  - Use sensor(s) whenever possible - **recommend to use for .e57**
   - If the cloud is associated to a grid structure, then this structure can be used to very guess the right normal orientation quickly and in a very robust way - **probably good to use with .ptx, but check**
-- If sensor position not available, recommend to use the default parameters set. Example as image below. The `octree` value depends on the model.   
- 
-  ![](fig/cc_normals_computing.png)  
+- If sensor position not available, recommend to use the default parameters set. Example as image below. The `octree` value depends on the model.
+
+  ![](fig/cc_normals_computing.png)
 
 - Some parts might have inverted normals orientation. I did not find the way how to check this in the `CloudCompare`. I recommend to export the data and check it in the `Meshlab`. `CloudCompare` allows to invert normals with `Edit->Normals->Invert`. **The function inverts all normals**. Cut the model in pieces with `Meshlab` before inverting to invert only the required parts.
 
@@ -97,19 +94,19 @@ sudo cmake --install .
 ```
 
 ## Extracting images
-* Import [`.e57`](https://ctu-mrs.github.io/docs/software/3d_model_processing/leica.html#e57) file in **separate setups (structured)** variant.  
+* Import [`.e57`](https://ctu-mrs.github.io/docs/software/3d_model_processing/leica.html#e57) file in **separate setups (structured)** variant.
 * Select appropriate scan and expand the structure tree to see the content of the scan. You should see a `TLS\GBL` and a 6 image files.
 * Select the image you would like to export and save it with the `Save` button.
 
 ## Extracting sensor positions
-* Import [`.e57`](https://ctu-mrs.github.io/docs/software/3d_model_processing/leica.html#e57) file in **separate setups (structured)** variant.  
+* Import [`.e57`](https://ctu-mrs.github.io/docs/software/3d_model_processing/leica.html#e57) file in **separate setups (structured)** variant.
 * Select appropriate scan and expand the structure tree to see the content of the scan. You should see a `TLS\GBL` and a 6 image files.
 * Every image contains a `Camera Sensor` with exact position of the picture w.r.t. to the model.
 * Select the `Camera Sensor` and scroll in the `Properties` window down to `Position/Orientation` section. Change it to `Export` tab and save with `ASCII` option to the file.
 * CloudCompare and MeshLab uses different rotation matrix system, so the `Camera Sensor` output has to be transformed before use as shown in the image below or the appropriate transformation :)
- 
-  ![](fig/cc_camera_sensor.png)  
+
+  ![](fig/cc_camera_sensor.png)
 
 * *Note: To check the image alignment in the CloudCompare, change the FOV of the camera in `Camera settings` of the image view to `117.60°`. This will allow you to visually compare the alignment sensor position and the pointcloud behind.*
 
-  ![](fig/cc_camera_visualization.png)  
+  ![](fig/cc_camera_visualization.png)

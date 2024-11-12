@@ -1,15 +1,11 @@
 ---
-layout: default
-title: With the MRS UAV System
-parent: MRS Simulator
-grand_parent: Simulation
-nav_order: 1
+title: Standalone in ROS
 ---
 
 # Prerequsities
 
 1. The [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) installed.
-2. The [MRS UAV System](https://github.com/ctu-mrs/mrs_uav_system) installed.
+2. The [MRS UAV Core](http://github.com/ctu-mrs/mrs_uav_core) installed.
 
 # Starting the simulation
 
@@ -24,12 +20,21 @@ Each folder contains a different simulation scenario.
 The simlation scenario will be started by calling the `start.sh` script within its folder.
 This will call the `tmuxinator` utility that uses the prescription in the `session.yml` file to spawn a `tmux` session.
 ```bash
-roscd mrs_multirotor_simulator/tmux/mrs_one_drone
+roscd mrs_multirotor_simulator/tmux/standalone
 ./start.sh
 ```
 
 You should be presented with the "Rviz" window upon starting the session.
-![](fig/mrs_with_system_windows.png)
+![](fig/mrs_standalone_windows.png)
+
+A similar session was also prepared to showcase the simulator of large number (400) of UAVs:
+
+```bash
+roscd mrs_multirotor_simulator/tmux/standalone_400_uavs
+./start.sh
+```
+
+![](fig/mrs_standalone_400_windows.png)
 
 # Stopping the simulation
 

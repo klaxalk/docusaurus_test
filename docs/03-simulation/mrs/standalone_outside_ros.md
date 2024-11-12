@@ -1,9 +1,5 @@
 ---
-layout: default
 title: Standalone outside ROS
-parent: MRS Simulator
-grand_parent: Simulation
-nav_order: 3
 ---
 
 The MRS Multirotor Simulator contains a **header-only** implementation of the single UAV dynamics including a feedback controller pipeline.

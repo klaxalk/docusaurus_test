@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Releasing new package version
-parent: catkin
-grand_parent: Software
 ---
 
 # Releaseing new version of a package
