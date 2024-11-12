@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Simulation
-has_children: true
-nav_order: 4
 ---
 
 # Simulations
