@@ -49,6 +49,9 @@ const config: Config = {
 
           includeCurrentVersion: true,
 
+          path: 'docs',
+          routeBasePath: 'docs',
+
           versions: {
             'current': {
               label: '1.5.0',
