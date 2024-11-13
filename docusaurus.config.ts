@@ -50,11 +50,11 @@ const config: Config = {
           includeCurrentVersion: true,
 
           path: 'docs',
-          routeBasePath: 'docs',
+          routeBasePath: '/',
 
           versions: {
             'current': {
-              label: 'next',
+              label: '1.5.0',
               path: '1.5.0',
             },
             '1.4.9': {
