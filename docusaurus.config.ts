@@ -99,7 +99,7 @@ const config: Config = {
       title: 'CTU MRS Docs',
       logo: {
         alt: 'CTU MRS Logo',
-        src: 'img/mrs_logo.svg',
+        src: 'img/mrs_logo.png',
       },
       items: [
         {
