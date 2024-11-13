@@ -98,8 +98,8 @@ const config: Config = {
     navbar: {
       title: 'CTU MRS Docs',
       logo: {
-        alt: 'CTU MRSLogo',
-        src: 'img/logo.svg',
+        alt: 'CTU MRS Logo',
+        src: 'img/mrs_logo.svg',
       },
       items: [
         {
