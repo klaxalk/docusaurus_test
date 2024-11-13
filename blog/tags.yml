@@ -1,19 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+mrs:
+  label: Multirobot Systems
+  permalink: /mrs
+  description: MRS tag description
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+fly4future:
+  label: Fly4Future
+  permalink: /fly4future
+  description: Fly4Future tag description
