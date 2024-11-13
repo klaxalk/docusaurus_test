@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Good practices in C++
-parent: Introduction
-nav_order: 3
 ---
 
 # Good practices in modern C++ for the purposes of MRS
@@ -38,6 +35,7 @@ In C, raw pointers are a crucial tool for many tasks, which include management o
 Many of these problems may be tackled using more focused tools in C++, significantly simplifying and clarifying the code and making it less error-prone.
 
 ### References
+
 In many cases, pointers may be avoided altogether in C++ by using references, especially when passing function parameters (see the [next section](#function-parameters)).
 However, references are useful in other cases as well.
 Consider the following scenario, where you want to transform the fifth element of the container `cont`:
@@ -116,7 +114,7 @@ The rules of thumb when defining function parameters is:
        else
          return {false, a};
      }
-     
+
      // preffered way since it's clearer what is input and what output
      // and all can be const, avoiding accidental modification
      const int a = 5;
@@ -136,7 +134,7 @@ The rules of thumb when defining function parameters is:
          return false;
        }
      }
-     
+
      // less elegant and less clear way, but valid
      const int a = 5;
      float b;
@@ -174,6 +172,7 @@ Because of the way modern CPUs work, processing sequential data is much more eff
    * You're doing some low-level optimizations (and you really know what you're doing).
 
 ### Element access
+
 Most containers in the standard library as well as in other libraries offer bounds-checked element access (e.g. the `at()` method for `std::vector`) in addition to the (sadly mostly default) non-bounds-checked element access (`operator[]()` for `std::vector`).
 The bounds-checked operators will throw an error if you try to access an element outside the container.
 The non-bounds-checked operators will not produce any kind of error and happily return a nonsensical value outside the container's memory.
@@ -249,7 +248,7 @@ There are three types of synchronization mechanisms for multi-threading in C++:
    The `std::condition_variable` is useful in cases when a thread (or multiple threads) has to wait for another thread to generate a resource to be consumed by the waiting thread (threads).
    In the context of ROS, this may be waiting until a message on some topic arrives for your thread to process (this is implemented in the `mrs_lib::SubscribeHandler`'s [`waitForNew()` method](https://ctu-mrs.github.io/mrs_lib/classmrs__lib_1_1SubscribeHandler.html#a4d2789e1f6172c5ff9e496af55aab5e1)).
    See [an example on cppreference.com](https://en.cppreference.com/w/cpp/thread/condition_variable#Example).
-   
+
 Other remarks regarding multi-threading in C++:
 
  * In general, do **not** use `volatile` (unless working with a microcontroller where you really need it or other platform-specific cases, which generally don't concern us).
@@ -301,7 +300,7 @@ for (std::vector<float>::const_iterator it = std::cbegin(cont); it != std::cend(
   // do stuff with it
 }
 ```
-you can simplify this code without loosing expressivity to 
+you can simplify this code without loosing expressivity to
 ```cpp
 const std::vector<float> cont = init_container();
 for (auto it = std::cbegin(cont); it != std::cend(cont); it++)
@@ -332,6 +331,7 @@ Namely, these helpers are good to use to improve code clarity and robustness:
  * [`ScopeTimer`](https://ctu-mrs.github.io/mrs_lib/classmrs__lib_1_1ScopeTimer.html): Simple scope-based profiling tool (like `tic-toc` and similar) for timing of duration of various processes.
 
 ## Useful libraries
+
 Before implementing basically anything, **first check that a suitable implementation doesn't already exist** (this goes for scientific research as well - do your research before you start reinventing the wheel 😀)!
 Typically, using an already existing and optimized implementation is not only easier and faster than implementing your own, but also the code will be faster and bug-free.
 A list of useful C++ libraries that you might need with links to their documentation pages follows:
