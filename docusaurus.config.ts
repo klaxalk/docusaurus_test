@@ -54,7 +54,7 @@ const config: Config = {
 
           versions: {
             'current': {
-              label: '1.5.0',
+              label: 'next',
               path: '1.5.0',
             },
             '1.4.9': {
