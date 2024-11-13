@@ -1,5 +1,5 @@
 ---
-title: The MRS UAV System
+title: MUS API
 ---
 
-# The MRS UAV System
+# The MRS UAV System API

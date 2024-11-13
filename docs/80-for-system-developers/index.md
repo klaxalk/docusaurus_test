@@ -1,8 +1,8 @@
 ---
-title: For the system developers
+title: For MUS developers
 ---
 
-# [For](For) the system developers
+# For the MUS developers
 
 | :warning: **Attention please: This page needs work.**                                                                                             |
 | :---                                                                                                                                                                                           |

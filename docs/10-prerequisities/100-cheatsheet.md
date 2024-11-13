@@ -1,5 +1,5 @@
 ---
-title: Cheatsheet
+title: MRS Cheatsheet
 ---
 
 # Cheatsheet for MRS UAV system

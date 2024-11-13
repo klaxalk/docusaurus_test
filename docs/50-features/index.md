@@ -1,5 +1,5 @@
 ---
-title: Features
+title: MUS Features
 ---
 
-# Features
+# The MRS UAV System's Features

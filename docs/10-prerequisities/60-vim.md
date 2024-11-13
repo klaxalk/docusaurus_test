@@ -1,3 +1,7 @@
+---
+title: Vim
+---
+
 # Vim
 
 Everyone should use a tool that is right for the job.

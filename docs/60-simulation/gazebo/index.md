@@ -1,11 +1,11 @@
 ---
-title: Gazebo
+title: Gazebo/ROS
 ---
 
 # Gazebo Simulator
 
-| :warning: **Attention please: This page needs work.**                                                                                             |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
+This folder contains docs on simulation using Gazebo/ROS and the MRS UAV System.
 
-This folder contains docs on simulation using Gazebo and the MRS UAV System.
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
