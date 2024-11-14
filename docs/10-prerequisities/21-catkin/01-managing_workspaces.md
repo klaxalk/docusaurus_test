@@ -9,15 +9,15 @@ Please, make a coffee and take your time to carefully study it, because it will 
 
 ## TL;DR & Tips
 
-* Learn to configure the workspaces by hand, learn to [setup](managing_workspaces.html#the-tools-to-manage-a-workspace) and [verify](managing_workspaces.html#verifying-the-state-of-a-workspace) dependencies between the workspaces.
+* Learn to configure the workspaces by hand, learn to setup and verify dependencies [between](between) the workspaces.
 * Do not `source` more than one workspace in your `~/.bashrc` or `~/.zshrc`.
-* Be mindful about the [workspace hierarchy](managing_workspaces.html#recommended-workspace-hierarchy). It will allow you to work more efficiently.
+* Be mindful about the workspace hierarchy It will allow you to work more efficiently.
 * It is possible to maintain multiple copies of a workspace, each with a different build type or particular version of the software.
 * Symlink packages from `~/git` to your workspaces, instead of directly cloning them into the `src` folder.
 
 ## What is a Catkin Workspace?
 
-A Catkin [workspace](workspace) (_workspace_ from now on) is a dedicated build space for Catkin packages, which is a package system used by ROS.
+A Catkin workspace (_workspace_ from now on) is a dedicated build space for Catkin packages, which is a package system used by ROS.
 A workspace is supposed to cluster together related packages, for which it manages a set of build profiles, each with a custom set of CMake arguments.
 
 ### Workspace folder structure
@@ -55,8 +55,8 @@ cd ~/my_workspace
 catkin init
 ```
 
-**Note:** The newly created workspace will extend the workspace, that is currently [sourced](managing_workspaces.html#sourcing-the-workspace).
-If you're not sure which workspace you've extended, [verify it with `catkin config`](managing_workspaces.html#verifying-the-state-of-a-workspace).
+**Note:** The newly created workspace will extend the workspace, that is currently [sourced](#sourcing-the-workspace).
+If you're not sure which workspace you've extended, [verify it with `catkin config`](#verifying-the-state-of-a-workspace).
 
 ### Building a workspace
 
@@ -115,7 +115,7 @@ The first path printed is the currently sourced workspace and the following are 
 
 **BEWARE!** Unless you are 100% sure that your workspaces are correctly set and do not contain identical packages, do not source more than one workspace in your `.bashrc` or `.zshrc`.
 Source only the bottom-most workspace that you're using in the workspace tree.
-That is typically the user workspace that you're currently working with (see the [recommended workspace hierarchy](managing_workspaces.html#recommended-workspace-hierarchy)).
+That is typically the user workspace that you're currently working with (see the [recommended workspace hierarchy](#recommended-workspace-hierarchy)).
 The extending hierarchy will handle the rest.
 
 ## Recommended workspace hierarchy
@@ -126,7 +126,7 @@ Workspaces can be linked in an arbitrary way, e.g.:
 
 ![](./fig/workspaces/workspace_hierarchy.png)
 
-To extend a workspace, it either has to be sourced when creating the new workspace (see [creating a workspace](managing_workspaces.html#creating-a-workspace)) or extended manually using the `catkin config` command (see below).
+To extend a workspace, it either has to be sourced when creating the new workspace (see [creating a workspace](#creating-a-workspace)) or extended manually using the `catkin config` command (see below).
 
 ### Extending ROS
 
@@ -168,7 +168,7 @@ catkin config --profile reldeb --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo -D
 ```
 
 The profiles can be switched by calling `catkin profile set <profile name>`.
-After the profile is switched, the whole workspace needs to be [cleaned](managing_workspaces.html#cleaning-the-workspace) and [recompiled](managing_workspaces.html#building-a-workspace).
+After the profile is switched, the whole workspace needs to be [cleaned](#cleaning-the-workspace) and [recompiled](#building-a-workspace).
 See [GCC optimization](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) for info about the optimization flags.
 
 **Note:** For the standard development cycle of programming-compilation-debugging, it's recommended to use the `debug` profile as it provides the best compromise of fast compilation, code optimization and debugging experience.

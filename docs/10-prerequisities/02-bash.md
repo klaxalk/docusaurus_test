@@ -9,5 +9,5 @@ Most of the time, when you work in the terminal, you use bash to run programs, f
 
 * Skills needed:
   * moving through a file system
-  * writing and running shell [scripts](scripts)
+  * writing and running shell scripts
   * `grep`, `pipe` \|, output redirection, `echo`, `ssh`, `scp`, `rsync`, `cat`, mounting devices (`lsblk`, `mount`, `sync`, `umount`)
