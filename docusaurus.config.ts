@@ -164,4 +164,12 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    '@aldridged/docusaurus-plugin-lunr'
+  ]
+};
+
 export default config;
