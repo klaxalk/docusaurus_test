@@ -19,3 +19,7 @@ It will install all the tools we usually use.
   * It is not as important to know how to create repositories; we have already prepared the structure for you. But skimming through all the tutorials is recommended.
   * Suggested tutorials: 2, 5, and further.
 * Required skills: The more, the better, most of it will come as you start working on your project.
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
