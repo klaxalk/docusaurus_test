@@ -36,7 +36,7 @@ const config: Config = {
   plugins: [
     // ...
     '@aldridged/docusaurus-plugin-lunr'
-  ]
+  ],
 
   presets: [
     [
