@@ -6,3 +6,5 @@ tags: [mrs]
 ---
 
 New Documentation
+
+<!-- truncate -->

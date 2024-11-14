@@ -9,7 +9,7 @@ Please, make a coffee and take your time to carefully study it, because it will 
 
 ## TL;DR & Tips
 
-* Learn to configure the workspaces by hand, learn to setup and verify dependencies [between](between) the workspaces.
+* Learn to configure the workspaces by hand, learn to setup and verify dependencies between the workspaces.
 * Do not `source` more than one workspace in your `~/.bashrc` or `~/.zshrc`.
 * Be mindful about the workspace hierarchy It will allow you to work more efficiently.
 * It is possible to maintain multiple copies of a workspace, each with a different build type or particular version of the software.
