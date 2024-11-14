@@ -33,6 +33,11 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: [
+    // ...
+    '@aldridged/docusaurus-plugin-lunr'
+  ]
+
   presets: [
     [
       'classic',
@@ -162,14 +167,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-};
-
-module.exports = {
-  // ...
-  plugins: [
-    // ...
-    '@aldridged/docusaurus-plugin-lunr'
-  ]
 };
 
 export default config;
