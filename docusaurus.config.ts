@@ -22,8 +22,8 @@ const config: Config = {
   organizationName: 'ctu-mrs', // Usually your GitHub org/user name.
   projectName: 'ctumrs', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'error',
+  onBrokenMarkdownLinks: 'error',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -109,7 +109,7 @@ const config: Config = {
         {
           type: 'docsVersionDropdown',
           position: 'right',
-          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+          // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
           dropdownActiveClassDisabled: true,
         },
         {to: '/blog', label: 'Blog', position: 'left'},
@@ -132,8 +132,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Robot Operating System',
+              to: '/docs/prerequisities/ros',
             },
           ],
         },
