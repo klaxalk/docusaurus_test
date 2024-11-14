@@ -22,8 +22,8 @@ const config: Config = {
   organizationName: 'ctu-mrs', // Usually your GitHub org/user name.
   projectName: 'ctumrs', // Usually your repo name.
 
-  onBrokenLinks: 'error',
-  onBrokenMarkdownLinks: 'error',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
