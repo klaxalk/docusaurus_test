@@ -108,11 +108,11 @@ const config: Config = {
         },
         {
           type: 'docsVersionDropdown',
-          position: 'left',
+          position: 'right',
           dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
           dropdownActiveClassDisabled: true,
         },
-        {to: '/blog', label: 'Articles', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ctu-mrs',
           label: 'GitHub',
