@@ -2,10 +2,6 @@
 title: MRS Drone Spawner
 ---
 
-| :warning: **Attention please: The software is still in development phase.**                                          |
-| :---                                                                                                                 |
-| Please keep in mind that spawner update is backwards-incompatible and some aspects of the workflow may have changed. |
-
 # About
 
 The `mrs_drone_spawner` is a ROS node written in Python, which allows you to dynamically add drones into your Gazebo simulation.

@@ -2,10 +2,6 @@
 title: How to simulate
 ---
 
-| :warning: **Attention please: This page needs work.**                                                                                             |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Prerequsities
 
 1. The [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) installed.

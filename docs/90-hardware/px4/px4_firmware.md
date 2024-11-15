@@ -2,10 +2,6 @@
 title: PX4 Firmware
 ---
 
-| :warning: **Attention please: This page is outdated.**                                                                                           |
-| :---                                                                                                                                             |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Flashing our custom firmware
 
 ## Getting the firmware

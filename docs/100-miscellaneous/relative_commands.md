@@ -2,10 +2,6 @@
 title: Commanding the robot relative to its position
 ---
 
-| :warning: **Attention please: This page is outdated.**                                                                                            |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 ## tl;dr:
 
 If you're setting a setpoint reference relative to the current UAV pose, do not use the current UAV State (`/<uav_name>/estimation_manager/uav_state`, or `/<uav_name>/estimation_manager/odom_main`) to calculate the new setpoint.

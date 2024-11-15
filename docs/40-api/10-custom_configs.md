@@ -2,10 +2,6 @@
 title: Configuring the MRS UAV System
 ---
 
-| :warning: **Attention please: This page needs work.**                                                                                             |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Motivation
 
 There are many configuration files _baked_ in the [mrs_uav_core](https://github.com/ctu-mrs/mrs_uav_core) and other packages of the system.

@@ -2,10 +2,6 @@
 title: Frames of reference
 ---
 
-| :warning: **Attention please: This page needs work.**                                                                                             |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Frames of Reference
 
 As described in the [Transformations](/docs/api/transformations) manual, the MRS control system enables to send commands to the UAV in all coordinate frames that are part of the same TF Tree as the `<uav_name>/fcu` frame.

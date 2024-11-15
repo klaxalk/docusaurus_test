@@ -2,10 +2,6 @@
 title: PX4 Configuration
 ---
 
-| :warning: **Attention please: This page is outdated.**                                                                                           |
-| :---                                                                                                                                             |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Pixhawk setup on a new drone
 
 Follow this guide to setup a new drone with the Pixhawk autopilot for the MRS UAV system.
