@@ -9,3 +9,7 @@ Includes links to courses, lectures, study materials, interesting blogs & podcas
 Inspired by [Awesome Mobile Robotics](https://github.com/mathiasmantelli/awesome-mobile-robotics)[^1].
 
 [^1]: Try to not include here resources available at [AMR](https://github.com/mathiasmantelli/awesome-mobile-robotics) to avoid duplicities, unless you think they should be here for their high relevance.
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />

@@ -30,3 +30,7 @@ Purpose of this guide is to describe the steps of acquiring, processing, and pre
 * [CloudCompare](https://ctu-mrs.github.io/docs/software/3d_model_processing/cloudcompare.html): 2.11.3 compilled manually (how to in [readme](https://ctu-mrs.github.io/docs/software/3d_model_processing/cloudcompare.html#manual-compilation))
 * [Blender](https://ctu-mrs.github.io/docs/software/3d_model_processing/blender.html): latest stable
 * [Leica Cyclone Register 360](https://ctu-mrs.github.io/docs/software/3d_model_processing/leica.html): latest
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
