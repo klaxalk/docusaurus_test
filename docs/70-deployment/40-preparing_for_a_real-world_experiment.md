@@ -2,10 +2,6 @@
 title: Preparing for a real-world experiment
 ---
 
-| :warning: **Attention please: This page needs work.**                                                                                             |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
 # Preparing for a real-world experiment:
 
 This guide is intended for newcomers to the MRS group who are planning a real-world experiment, and it is therefore specific to the UAV platforms and setup used by the MRS group.

@@ -1,9 +1,5 @@
 ---
 title: "Dan's Pea Soup"
-author: Daniel Hert
-geometry: margin=2cm
-output: pdf_document
-parent: Unrelated
 ---
 
 # Dan's Pea Soup

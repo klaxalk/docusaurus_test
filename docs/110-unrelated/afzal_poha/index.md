@@ -1,9 +1,5 @@
 ---
-title: "Afzal's Poha(Indian breakfast)"
-author: Afzal Ahmad
-geometry: margin=2cm
-output: pdf_document
-parent: Unrelated
+title: "Afzal's Poha (Indian breakfast)"
 ---
 
 # Afzal's Poha

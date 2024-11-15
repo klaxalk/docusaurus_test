@@ -1,15 +1,7 @@
 ---
-layout: default
-title: How to compile
-parent: Introduction
-nav_order: 99
+title: Compiling a workspace
 ---
 
-| :warning: **Attention please: This page is outdated.**                                                                                            |
-| :---                                                                                                                                              |
-| The MRS UAV System 1.5 is being released and this page needs updating. Please, keep in mind that the information on this page might not be valid. |
-
-We use [catkin tools](https://catkin-tools.readthedocs.io/en/latest/) to manage our ROS workspaces.
 Make sure you are located within the workspace when issuing the following commands.
 If your workspace is sourced, you can `cd` to the workspace by:
 ```bash
@@ -47,3 +39,4 @@ Cleaning a particular `<package>`:
 ```bash
 catkin clean <package>
 ```
+

@@ -1,5 +1,5 @@
 ---
-title: Latex
+title: Overleaf-to-git sync
 ---
 
 # Sync git repository with an Overleaf project

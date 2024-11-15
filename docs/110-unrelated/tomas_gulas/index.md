@@ -1,9 +1,5 @@
 ---
 title: "Tomas's Gulas"
-author: Tomas Baca
-geometry: margin=2cm
-output: pdf_document
-parent: Unrelated
 ---
 
 # Tomas's Gulas
