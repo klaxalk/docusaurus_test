@@ -8,7 +8,7 @@ title: Frames of reference
 
 # Frames of Reference
 
-As described in the [Transformations](transformations.md) manual, the MRS control system enables to send commands to the UAV in all coordinate frames that are part of the same TF Tree as the `<uav_name>/fcu` frame.
+As described in the [Transformations](/docs/api/transformations) manual, the MRS control system enables to send commands to the UAV in all coordinate frames that are part of the same TF Tree as the `<uav_name>/fcu` frame.
 The `<uav_name>/fcu` frame is the _body frame_ of the UAV.
 The coordinate frames that are used within MRS system are listed below.
 
@@ -27,7 +27,7 @@ Coordinate systems for mobile robots follow hierarchical convention (check coord
 ```bash
 world -> map -> odometry -> fcu -> sensors
 ```
-The [transformations](https://ctu-mrs.github.io/docs/system/transformations.html) (`->`) among coordination frames are maintained by [tf2 ROS library](http://wiki.ros.org/tf2).
+The [transformations](/docs/api/transformations) (`->`) among coordination frames are maintained by [tf2 ROS library](http://wiki.ros.org/tf2).
 The `tf2` library requires the mutual transformations to be stored in a **tree structure**, where each node has a single *parent* and there exists only a single **root** node with no *parent*.
 
 But, maintaining the **tree structure** is impossible for multiple *world*/*map*/*odometry* coordinate frames.
